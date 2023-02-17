@@ -1,12 +1,20 @@
 {
-    "name": "react-boilerplate",
-    "version": "0.1.0",
-    "description": "",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "ISC"
+  "name": "react-boilerplate",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arulvalananto/react-boilerplate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/arulvalananto/react-boilerplate/issues"
+  },
+  "homepage": "https://github.com/arulvalananto/react-boilerplate#readme"
 }
