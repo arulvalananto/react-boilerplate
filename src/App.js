@@ -1,7 +1,7 @@
 import React from 'react'
 import { hot } from 'react-hot-loader'
 
-import './styles.css'
+import './global.css'
 
 const App = () => {
   return <h1>Hello World</h1>
