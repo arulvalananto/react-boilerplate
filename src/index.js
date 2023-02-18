@@ -8,9 +8,9 @@ import App from './App'
 const container = document.getElementById('app')
 const root = createRoot(container)
 
-if (process.env.NODE_ENV === 'development') {
-  const axe = require('react-axe')
-  axe(React, ReactDOM, 2000)
+if (process.env.NODE_ENV !== 'production') {
+  const axe = require('@axe-core/react')
+  axe(React, ReactDOM, 1000)
 }
 
 root.render(
