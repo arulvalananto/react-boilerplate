@@ -6,8 +6,6 @@ import './styles.css'
 const App = () => {
   const [count, setCount] = useState(0)
 
-  const A = 'Apple'
-
   const increase = () => {
     setCount(count + 1)
   }
